@@ -23,5 +23,5 @@ ESLint 是一个应用广泛的 JavaScript 代码检查工具。本文主要介�
 * 对于能够 autofix 的配置，都在注释中有标注
   `@autofix`
 
-[http://www.alloyteam.com/2017/08/13065/](http://www.alloyteam.com/2017/08/13065/)
+
 

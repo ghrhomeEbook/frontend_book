@@ -48,9 +48,20 @@
 
 **2、CSS格式**
 
-* **依字母顺序进行声明。**
+* 声明顺序
 
-* 都按字母顺序声明，很容易记住和维护。
+  这是一个选择器内书写CSS属性顺序的大致轮廓。这是为了保证更好的可读性和可扫描重要。
+
+  作为最佳实践，我们应该遵循以下顺序（应该按照下表的顺序）：
+
+  1. 结构性属性：
+     1. display
+     2. position, left, top, right etc.
+     3. overflow, float, clear etc.
+     4. margin, padding
+  2. 表现性属性：
+     1. background, border etc.
+     2. font, text
 
 * 忽略浏览器的特定前缀排序，但多浏览器特定的某个CSS属性前缀应相对保持排序（例如-moz前缀在-webkit前面）。
 
@@ -60,7 +71,7 @@
 @media screen, projection {
    html {
        background: #fff;
-       color: #444;
+       color: #ccc;
    }
 }
 ```
@@ -132,18 +143,9 @@ html {
 /* 不推荐: 无意义 不易理解 */
 #yee-1901 {}
 
-/* 不推荐: 表达不具体 */
-.button-green {}
-.clear {}
-
-/* 推荐: 明确详细 */
-#gallery {}
+/* 推荐: 通用 */
 #login {}
 .video {}
-
-/* 推荐: 通用 */
-.aux {}
-.alt {}
 ```
 
 **2、ID和class命名风格**

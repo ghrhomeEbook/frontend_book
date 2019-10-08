@@ -1,5 +1,9 @@
 # Vue风格指南命名规范整理
 
+这里摘要了Vue风格指南的部分内容，强烈建议仔细阅读Vue官网的风格指南。
+
+[https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
+
 ## A组：必要的
 
 组件名应为多个单词，避免与HTML相冲突
@@ -16,17 +20,11 @@ v-for和v-if永远不要在一个元素上
 
 （1）当 style 标签有 scoped 属性时，它的 CSS 只作用于当前组件中的元素。无scoped为全局样式。
 
-[https://vue-loader-v14.vuejs.org/zh-cn/features/scoped-css.html](https://vue-loader-v14.vuejs.org/zh-cn/features/scoped-css.html)
-
 （2）CSS Module：当 style标签有 module，打开 CSS Modules 模式，生成的 CSS 对象将为组件注入一个名叫 $ style 的计算属性，你可以在你的模块中使用动态 class 绑定：class="$ style.red"，还可以设置 module 属性来为它们定义注入后计算属性的名称，module=‘a’，$ a.red
-
-[https://vue-loader-v14.vuejs.org/zh-cn/features/css-modules.html](https://vue-loader-v14.vuejs.org/zh-cn/features/css-modules.html)
 
 自定义的私有属性使用 $\_ 前缀。并附带一个命名空间
 
 ## B组：强烈推荐
-
-
 
 尽量把每个组件拆分成组件文件
 
@@ -51,6 +49,4 @@ JS中的组件名：PascalCase命名法，所有单词首字母全部大写，DO
 组件模板应该只包含简单的表达式，复杂的表达式则应该重构为计算属性或方法。复杂表达式可以重构到计算属性computed:{ XXXX : function \(\) {} }，复杂的计算属性可以分割为简单的计算属性。多个XXX：function（）{}
 
 指令缩写：用 : 表示 v-bind: 和用 @ 表示 v-on:，要么都用要么都不用
-
-
 

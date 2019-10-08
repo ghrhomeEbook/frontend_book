@@ -5,15 +5,17 @@
 | 前缀 | 代码要求 | 样例 | 注意 |
 | :--- | :--- | :--- | :--- |
 | zv | 以功能模块名称为class命名 | zv-datepicker，zv-menu-select，zv-list | 为统一，避免驼峰命名 |
-| zv | 以代码块为class命名以表示页面结构 | zv-page,zv-contentr,zv-block,zv-section,zv-panel,zv-table | 代码块体现页面层进关系。例如：zv-page&gt;zv-content&gt;zv-block&gt;zv-section |
-| zv | ID命名规范 | id="zv-finacial-\*" | 页面ID在页面与zv-page同级，以标识页面为主要目的 |
+| zv | 以代码块为class命名以表示页面结构 | zv-page,zv-content,zv-block,zv-section,zv-panel,zv-table | 代码块体现页面层进关系。例如：zv-page&gt;zv-content&gt;zv-block&gt;zv-section |
+| zv | ID命名规范 | id="zv-product-\*" | 页面ID在页面与zv-page同级，以标识页面为主要目的 |
 |  |  | id="zv-list-\*" | 需要时可以绑定id值具体代码块,尽量在样式中单独定义到页面css中，copy代码时去掉 |
 | zv | 基于最近的父 class 或基本（base） class 作为新 class 的前缀。 | class="zv-panel" class="zv-panel-title" | &lt;div class="zv-panel"&gt;&lt;h3 class="zv-panel-title"&gt;&lt;/h3&gt;&lt;/div&gt; |
 | js | 使用 .js-\* class 或者 \#js-\* id 来标识行为（与样式相对） | class="js-swiper" class="js-collapse" | 不要将这些 class 或者 ID 包含到 CSS 文件中 |
 
+### 注：目前Zvalley OS平台采用的是bootstrape命名规范，关注于结构和语义的实现。在实现组件定义时，也推荐实践BEM的命名规范来组织css代码。
+
+（BEM规范由于元素装饰器包含在块装饰器里面B\_\_E\_M, 组织形式更适合于组件的定义）
+
 ### 页面层叠示例
-
-
 
 ### HTML属性顺序
 

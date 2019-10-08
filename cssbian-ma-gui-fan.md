@@ -195,8 +195,8 @@ padding: 0 1em 2em;
 .errorStatus {}
 
 /* 推荐 */
-#video-id {}
-.ads-sample {}
+#product-type {}
+.error-status {}
 ```
 
 

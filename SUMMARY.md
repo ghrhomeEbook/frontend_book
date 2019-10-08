@@ -10,7 +10,6 @@
 * [JavaScript规范](javascriptgui-fan.md)
 * [文件/资源命名规范](wen-4ef6-zi-yuan-ming-ming-gui-fan.md)
 * [注释规范](zhu-shi-gui-fan.md)
-* [JS模块化](jsmo-kuai-hua.md)
 * [前端体验规范](qian-duan-ti-yan-gui-fan.md)
 * [开发及测试工具约定](kai-fa-ji-ce-shi-gong-ju-yue-ding.md)
 * [ESlint配置原则](eslintpei-zhi-yuan-ze.md)
