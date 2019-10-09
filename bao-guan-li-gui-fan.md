@@ -1,6 +1,6 @@
 包管理规范
 
-依赖包统一在package.json里面管理
+依赖包统一在package.json里面管理。未经验证的第三方包引入，需要告知项目相关开发人员，并经过验证测试后引入。
 
-注意子版本的一致性：引入package-lock.json
+注意子版本的一致性：使用package-lock.json管理。
 
