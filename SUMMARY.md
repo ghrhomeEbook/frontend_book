@@ -21,5 +21,4 @@
 * [Vue编码风格指南](vuebian-ma-feng-ge-zhi-nan.md)
 * [组件开发指南](zu-jian-kai-fa-zhi-nan.md)
 * [版本管理](ban-ben-guan-li.md)
-* [Google HTML/CSS代码规范指南](google-htmlcssdai-ma-gui-fan-zhi-nan.md)
 
